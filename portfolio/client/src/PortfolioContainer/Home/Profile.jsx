@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css'
 export default function Profile() {
   return (
     <div className="profile-container">
@@ -57,7 +58,7 @@ export default function Profile() {
               </span>
             </span>
           </div>
-          <div className="profile-optins">
+          <div className="profile-options">
             <button className="btn primary-btn">
               {""}
               Hire Me{" "}
