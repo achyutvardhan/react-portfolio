@@ -3,19 +3,15 @@ import Profile from './PortfolioContainer/Home/Profile';
 import Footer from './PortfolioContainer/Footer/footer.jsx'
 import Layout from "./PortfolioContainer/Layout";
 import Error from "./PortfolioContainer/Error";
+import Nav from "./PortfolioContainer/header/Nav";
 import './App.css';
 
 function App() {
   return (
     <>
-    
-    {/* <div >
-      <Profile/>
-    </div>
-      <Footer/> */}
       <BrowserRouter>
       <Layout>
-        {/* <Nav /> */}
+        <Nav />
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="*" element={<Error />} />
