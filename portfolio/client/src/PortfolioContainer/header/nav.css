@@ -53,3 +53,9 @@ header{
     }
 }
 
+@media screen and (max-width:447px)
+{
+    header{
+        padding: 10px;
+    }
+}
