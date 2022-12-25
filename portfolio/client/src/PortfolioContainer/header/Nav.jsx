@@ -1,4 +1,5 @@
 import React from "react";
+import Hamburger from "./Hamburger/Hamburger";
 import "./nav.css";
 export default function Nav() {
   return (
@@ -11,6 +12,7 @@ export default function Nav() {
         <a href="#" className="navbtn">Testimonial</a>
         <a href="#" className="navbtn">ContactMe</a>
       </div>
+      <Hamburger/>
     </header>
   );
 }

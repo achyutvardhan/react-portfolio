@@ -26,6 +26,9 @@
     font-size: 40px;
     font-family: cursive;
 }
+.profile-details{
+    text-align: center;
+}
 
 .primary-text{
     color: (--white);
@@ -78,4 +81,40 @@
 .colz .colz-icon i:hover{
     transform: scale(1.5) ;
     transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width:810px) {
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin: 40px;
+    }
+    .profile-parent{
+        display: flex;
+        align-items: center;
+        color: #f0f8f0;
+    }
+    .profile-details{
+        text-align: center;
+    }
+    .profile-picture{
+        margin: 0px;
+        height: 300px;
+        width: 300px;
+    }
+    .profile-role-tagline{
+        display: none;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .profile-options{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .profile-options .highlighted-btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }

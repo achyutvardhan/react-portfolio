@@ -6,12 +6,13 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     background-color: #24263B;
+    overflow: hidden;
 }
 .name{
     color: white;
-    font-family: "Poppins Regular";
+    font-family:  'Rubik', sans-serif;
     font-size: 40px;
-    font-weight:bolder;
+    font-weight:900;
     letter-spacing: 0.01em;
     cursor:pointer;
 }
@@ -33,3 +34,22 @@ header{
     text-decoration: none;
     color: #F57F17;
 }
+@media screen and (max-width:810px) {
+    .route{
+        display: none;
+    }
+    header{
+        flex-direction: row-reverse;
+    }
+}
+@media screen and (max-width:954px) {
+    .navbtn{
+        margin-right: 20px;
+        color: white;
+        font-family: "Poppins Regular";
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.005em;
+    }
+}
+
