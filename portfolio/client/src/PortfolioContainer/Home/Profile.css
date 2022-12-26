@@ -4,7 +4,7 @@
    justify-content: center;
    height: 10%;
    min-height: fit-content;
-   background-image: url('../../assets//Home/bg.jpg');
+   
 }
 .profile-parent {
     display: flex;
@@ -102,7 +102,7 @@
         width: 300px;
     }
     .profile-role-tagline{
-        display: none;
+        word-wrap: break-word;
     }
 }
 

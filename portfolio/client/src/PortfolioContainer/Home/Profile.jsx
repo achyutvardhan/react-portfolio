@@ -1,8 +1,12 @@
 import React from "react";
 import Typical from "react-typical";
+import Hmfooter from "./footer/footer";
 import './Profile.css'
+import './Home.css'
 export default function Profile() {
   return (
+    <>
+    <div className="home-container">
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
@@ -73,5 +77,8 @@ export default function Profile() {
         </div>
       </div>
     </div>
+    <Hmfooter/>
+    </div>
+    </>
   );
 }
