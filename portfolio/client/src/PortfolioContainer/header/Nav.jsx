@@ -8,7 +8,7 @@ export default function Nav() {
       <div className="route">
         <a href="/" className="navbtn">Home</a>
         <a href="#about-me" className="navbtn">AboutMe</a>
-        <a href="#" className="navbtn">Resume</a>
+        <a href="/Resume" className="navbtn">Resume</a>
         <a href="#" className="navbtn">Testimonial</a>
         <a href="#" className="navbtn">ContactMe</a>
       </div>
