@@ -1,0 +1,11 @@
+@media screen and (max-width: 850px) {
+    .profile-img img{
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .img-container{
+        display: none;
+    }
+}

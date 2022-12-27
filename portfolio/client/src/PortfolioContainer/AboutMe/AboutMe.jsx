@@ -7,10 +7,16 @@ import './css/details.css'
 export default function AboutMe() {
   return (
     <>
+    <section className="external-contain" id='about-me'>
+     <div className="header">
+      <h2>About Me</h2>
+      <h4>Why Choose Me?</h4>
+     </div>
     <div className="about-container">
       <AboutMeImg/>
       <AboutDetails/>
     </div>
+    </section>
     </>
   )
 }

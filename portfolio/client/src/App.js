@@ -4,6 +4,7 @@ import Footer from './PortfolioContainer/Footer/footer.jsx'
 import Layout from "./PortfolioContainer/Layout";
 import Error from "./PortfolioContainer/Error";
 import Nav from "./PortfolioContainer/header/Nav";
+// import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import './App.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<Profile />} />
+          {/* <Route path="/AboutMe" element={<AboutMe/>} /> */}
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

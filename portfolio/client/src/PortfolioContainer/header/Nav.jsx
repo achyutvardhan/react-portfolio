@@ -7,7 +7,7 @@ export default function Nav() {
       <div className="name">ACHYUT</div>
       <div className="route">
         <a href="/" className="navbtn">Home</a>
-        <a href="#" className="navbtn">AboutMe</a>
+        <a href="#about-me" className="navbtn">AboutMe</a>
         <a href="#" className="navbtn">Resume</a>
         <a href="#" className="navbtn">Testimonial</a>
         <a href="#" className="navbtn">ContactMe</a>
