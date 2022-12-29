@@ -13,7 +13,7 @@ export default function ContactDetaills() {
                 Message
                 <input type="text" name="" className='input-box' id='box-type'  />
             </label>
-            <input type="submit" value="submit" className='submit-btn'/>
+            <input type="submit" value="Send" className='submit-btn'/>
           </form>
         </div>
     </div>

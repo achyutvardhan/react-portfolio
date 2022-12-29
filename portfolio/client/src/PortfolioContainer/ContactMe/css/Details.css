@@ -28,3 +28,33 @@
 #box-type{
     height: 100px;
 }
+
+.submit-btn{
+    border-radius: 10px;
+    background-color:#24263B ;
+    color:whitesmoke;
+    padding: 5px;
+    width: 30%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    transition: all 0.5s;
+}
+
+.submit-btn:hover{
+    border: 2px solid #F57F17 ;
+    color: #F57F17 ;
+}
+
+@media screen and (max-width: 890px) {
+    .submit-btn{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .contact-detail-container{
+        width: 100%;
+        padding: 5px;
+    }
+}

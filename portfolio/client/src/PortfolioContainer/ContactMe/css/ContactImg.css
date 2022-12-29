@@ -19,10 +19,11 @@
     letter-spacing: 3px;
     color: whitesmoke;
     margin-bottom: 20px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 .space-up{
     margin-top: 100px;
+    letter-spacing: 3px;
 }
 
 #icon-contact{
@@ -30,4 +31,17 @@
 }
 .content-img{
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 810px)
+{
+    .space-up{
+        margin-top: 0px;
+    }
+    .content-img{
+        margin-bottom: 0px;
+    }
+    .content-img img{
+        width: 100%;
+    }
 }

@@ -8,4 +8,18 @@
     margin-right: auto;
     margin-bottom: 100px;
     border-radius: 15px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1029px)
+{
+    .contact-container{
+       width: 90%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .contact-container{
+        flex-direction: column;
+    }
 }
