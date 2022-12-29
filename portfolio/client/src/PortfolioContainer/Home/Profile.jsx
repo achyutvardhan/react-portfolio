@@ -2,6 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import Hmfooter from "./footer/footer";
 import AboutMe from "../AboutMe/AboutMe";
+import ContactMe from "../ContactMe/ContactMe";
 import './Profile.css'
 import './Home.css'
 export default function Profile() {
@@ -81,6 +82,7 @@ export default function Profile() {
     <Hmfooter/>
     </div>
     <AboutMe/>
+    <ContactMe/>
     </>
   );
 }

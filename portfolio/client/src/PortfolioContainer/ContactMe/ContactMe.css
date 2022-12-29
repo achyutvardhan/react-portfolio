@@ -1,0 +1,11 @@
+.contact-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #24263B ;
+    padding: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    border-radius: 15px;
+}

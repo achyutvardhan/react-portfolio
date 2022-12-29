@@ -1,0 +1,30 @@
+.contact-detail-container{
+    width:500px ;
+    padding: 20px;
+}
+
+.contact-white-container{
+    background-color: white;
+    border-radius: 10px;
+    width: auto;
+    margin-top: 50px;
+    padding: 20px;
+    
+}
+.column-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-box{
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(244, 242, 242);
+    background-color: rgb(244, 242, 242);
+    font-size: smaller;
+    width: 100%;
+}
+#box-type{
+    height: 100px;
+}

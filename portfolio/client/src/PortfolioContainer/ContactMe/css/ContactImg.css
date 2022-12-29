@@ -1,0 +1,33 @@
+.Contact-img-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact-img-container h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: .5px;
+    color: rgb(125, 125, 123);
+    opacity: 0.8;
+}
+
+.contact-head h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    font-weight:900;
+    letter-spacing: 3px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.space-up{
+    margin-top: 100px;
+}
+
+#icon-contact{
+    margin-left: 20px;
+}
+.content-img{
+    margin-bottom: 100px;
+}
