@@ -1,0 +1,45 @@
+.ConfirmMessage-container{
+border: none;
+width: fit-content;
+position: relative;
+top: 320px;
+left: 700px;
+}
+
+.animation-external{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px ;
+    animation-name: ring;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 10;
+    /* background-color: aquamarine; */
+}
+
+@keyframes ring
+ {
+    0% {padding-bottom: 50px;padding-top: 0px;}
+    25% { padding-left: 50px; padding-right: 0px;}
+    50% {padding-bottom: 0px;padding-top: 50px;}
+    75% {padding-right: 50px;padding-left: 0px;}
+    100% {padding-bottom: 50px;padding-top: 0px;}
+}
+.animation-internal{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #24263B;
+    /* border: none; */
+    border-radius: 50%;
+    background-color: #24263B;
+    color: white;
+    text-align: center;
+}
+.animation-internal p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: green;
+}
