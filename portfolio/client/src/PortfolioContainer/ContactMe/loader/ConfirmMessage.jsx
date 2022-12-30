@@ -6,7 +6,7 @@ export default function ConfirmMessage(props) {
     <div className="ConfirmMessage-container">
         <div className="animation-external">
             <div className="animation-internal">
-                <p>Message Sent</p>
+                <p>Message Sending..</p>
             </div>
         </div>
     </div>

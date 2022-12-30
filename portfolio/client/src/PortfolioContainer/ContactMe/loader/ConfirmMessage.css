@@ -1,4 +1,8 @@
 .ConfirmMessage-container{
+    display: none;
+}
+
+.ConfirmMessage-container{
 border: none;
 width: fit-content;
 position: relative;
@@ -16,7 +20,7 @@ left: 700px;
     animation-name: ring;
     animation-duration: 2s;
     animation-direction: normal;
-    animation-iteration-count: 10;
+    animation-iteration-count: 2.5;
     /* background-color: aquamarine; */
 }
 
@@ -42,4 +46,24 @@ left: 700px;
     margin-top: 30px;
     margin-bottom: 30px;
     color: green;
+}
+
+@media screen and (max-width: 1400px) {
+    .ConfirmMessage-container{
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .ConfirmMessage-container{
+        bottom: 40%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .ConfirmMessage-container{
+        bottom: 40%;
+        left: 30%;
+    }
 }

@@ -11,7 +11,20 @@ export default function ContactDetaills() {
        const handleSubmit = (e)=>{
         e.preventDefault();
         console.log(formData);
-        
+        document.querySelector(".ConfirmMessage-container").style.display = "block";
+        document.querySelector(".ConfirmMessage-container").style.opacity = "1";
+        document.querySelector(".contact-container").style.opacity = "0.5";
+        let contenChange = ()=>{
+            document.querySelector(".animation-internal p").innerHTML = "Message Sent"
+        }
+
+        setTimeout(contenChange,5400);
+        let blockdisplay = ()=>{
+            document.querySelector(".ConfirmMessage-container").style.display = "none";
+        document.querySelector(".contact-container").style.opacity = "1";
+        }
+
+        setTimeout(blockdisplay,7000);
        }
   return (
     <div className="contact-detail-container">
