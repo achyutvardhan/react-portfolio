@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import Hmfooter from "./footer/footer";
 import AboutMe from "../AboutMe/AboutMe";
 import ContactMe from "../ContactMe/ContactMe";
+import Testimonial from "../Testimonial/Testimonial";
 import "./Profile.css";
 import "./Home.css";
 export default function Profile() {
@@ -84,6 +85,7 @@ export default function Profile() {
         <Hmfooter />
       </div>
       <AboutMe />
+      <Testimonial/>
       <ContactMe />
     </>
   );

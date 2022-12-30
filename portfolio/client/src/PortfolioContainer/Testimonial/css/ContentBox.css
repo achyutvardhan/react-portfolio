@@ -1,0 +1,49 @@
+.Testi-extrenal-container{
+    width: fit-content;
+    background-color: #24263B;
+    border: none;
+    align-items: center;
+    margin-top: 70px;
+}
+.Testi-internal-container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-around;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 50px 50px 50px 0px;
+    padding: 15px;
+}
+
+.testi-img{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+.testi-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.testi-img img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+.position{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.position p{
+    margin-bottom: 3px;
+}
+
+#light{
+    opacity: 0.8;
+}
