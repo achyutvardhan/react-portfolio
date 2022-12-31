@@ -1,0 +1,41 @@
+{
+
+    "data":[
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../assets/Home/bg-1.jpg",
+            "name":"Alice",
+            "position": "co-founder AliceFoundation"
+          },
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../../assets/Home/daisy.jpg",
+            "name":"Daisy",
+            "position": "co-founder AliceFoundation"
+          },
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../../assets/Home/ehiz.jpg",
+            "name":"Ehiz",
+            "position": "co-founder AliceFoundation"
+          },
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../../assets/Home/lady.jpg",
+            "name":"Lady",
+            "position": "co-founder AliceFoundation"
+          },
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../../assets/Home/man.jpg",
+            "name":"Man",
+            "position": "co-founder AliceFoundation"
+          },
+          {
+            "message":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aliquam esse blanditiis, dolorum harum assumenda ipsum neque placeat ratione. Neque sunt saepe ratione rerum, tempore doloribus quae officia odio odit!",
+            "img": "../../assets/Home/mike.jpg",
+            "name":"Mike",
+            "position": "co-founder AliceFoundation"
+          }
+    ]
+}

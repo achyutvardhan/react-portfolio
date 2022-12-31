@@ -5,4 +5,5 @@
     /* height: 50vh !important; */
     min-height: 500px;
     background-color:#24263B ;
+    overflow: hidden;
 }
