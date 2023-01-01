@@ -8,10 +8,20 @@ export default function ContactDetaills() {
         contMessage : ""
        })
        
-       const handleSubmit = (e)=>{
+       const handleSubmit = async(e)=>{
         e.preventDefault();
         console.log(formData);
-        document.querySelector(".ConfirmMessage-container").style.display = "block";
+        const url = "https://sheetdb.io/api/v1/th7snt8dqibpp";
+        const result = await fetch(url,{
+          method : "POST",
+          headers: {
+            'Content-Type': 'application/json'
+            // 'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: JSON.stringify(formData)
+        }).then(
+          response => {response.json()
+            document.querySelector(".ConfirmMessage-container").style.display = "block";
         document.querySelector(".ConfirmMessage-container").style.opacity = "1";
         document.querySelector(".contact-container").style.opacity = "0.5";
         let contenChange = ()=>{
@@ -25,6 +35,25 @@ export default function ContactDetaills() {
         }
 
         setTimeout(blockdisplay,7000);
+          }
+          )
+        .catch(err=>{console.log(err)
+          document.querySelector(".ConfirmMessage-container").style.display = "block";
+          document.querySelector(".ConfirmMessage-container").style.opacity = "1";
+          document.querySelector(".contact-container").style.opacity = "0.5";
+          let contenChange = ()=>{
+            document.querySelector(".animation-internal p").style.color = "#FF0000"
+            document.querySelector(".animation-internal p").innerHTML = "Message not sent"
+          }
+  
+          setTimeout(contenChange,5400);
+          let blockdisplay = ()=>{
+              document.querySelector(".ConfirmMessage-container").style.display = "none";
+          document.querySelector(".contact-container").style.opacity = "1";
+          }
+  
+          setTimeout(blockdisplay,7000);
+        })
        }
   return (
     <div className="contact-detail-container">
@@ -32,11 +61,11 @@ export default function ContactDetaills() {
           <form className="contact-message-container" onSubmit={handleSubmit}>
             <label className='column-container'>
                 Name:
-                <input type="text" onChange={(e)=>setData({...formData, contName : e.target.value})} value={formData.contName} className='input-box'/>
+                <input type="text" onChange={(e)=>setData({...formData, contName : e.target.value})} value={formData.contName} name="data[name]" className='input-box'/>
                 Email:
-                <input type="email" name="email" onChange={(e)=>setData({...formData, contEmail : e.target.value})} value={formData.contEmail} className='input-box' />
+                <input type="email" name="data[email]" onChange={(e)=>setData({...formData, contEmail : e.target.value})} value={formData.contEmail} className='input-box' />
                 Message
-                <textarea type="text" name="" onChange={(e)=>setData({...formData, contMessage : e.target.value})} value={formData.contMessage} className='input-box' id='box-type'  />
+                <textarea type="text" name="data[message]" onChange={(e)=>setData({...formData, contMessage : e.target.value})} value={formData.contMessage} className='input-box' id='box-type'  />
             </label>
             <input type="submit" value="Send" className='submit-btn'/>
           </form>
