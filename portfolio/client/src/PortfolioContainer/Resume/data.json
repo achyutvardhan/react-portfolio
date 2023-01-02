@@ -5,22 +5,22 @@
       "content": [
         {
           "year": "2022-present",
-          "leftHead": "Founder",
+          "leftHead": "Founder | Kodewreck",
           "para": "Kodewreck"
         },
         {
           "year": "2021-present",
-          "leftHead": "senior technical executive",
+          "leftHead": "senior technical executive | FED",
           "para": "FED"
         },
         {
           "year": "2022-present",
-          "leftHead": "Anchor",
+          "leftHead": "Anchor | Kalliope",
           "para": "Kaliiope"
         },
         {
           "year": "2022-present",
-          "leftHead": "Technical Executive ",
+          "leftHead": "Technical Executive | TEDxKIITUniversity ",
           "para": "TEDxKIITUniversity"
         }
       ]
@@ -30,18 +30,18 @@
       "content": [
         {
           "year": "2006-2019",
-          "leftHead": "10th Board",
+          "leftHead": "10th Board | MOUNT ASSISI SCHOOL",
           "para": "MOUNT ASSISI SCHOOL completed with 80.5%"
         },
         {
           "year": "2019-2021",
-          "leftHead": "10+2 Board",
+          "leftHead": "10+2 Board | CHAUHAN PUBLIC SCHOOL",
           "para": " CHAUHAN PUBLIC SCHOOL completed with 80.5%"
         },
         {
           "year": "2021-present",
-          "leftHead": "BTech",
-          "para": " KIIT UNIVERSITY completed with 80.5%"
+          "leftHead": "BTech | KIIT UNIVERSITY ",
+          "para": " KIIT UNIVERSITY 8.73 CGPA"
         }
       ]
     },
@@ -50,42 +50,42 @@
       "content": [
         {
           "year": "",
-          "leftHead": "React",
+          "leftHead": "React | Intermediate",
           "para": "Intermediate"
         },
         {
           "year": "",
-          "leftHead": "HTML5",
+          "leftHead": "HTML5 | Intermediate",
           "para": "Intermediate"
         },
         {
           "year": "",
-          "leftHead": "CSS",
+          "leftHead": "CSS | Intermediate",
           "para": "Intermediate"
         },
         {
           "year": "",
-          "leftHead": "Javascript",
+          "leftHead": "Javascript | Intermediate",
           "para": "Intermediate"
         },
         {
           "year": "",
-          "leftHead": "Node.js",
+          "leftHead": "Node.js | Beginner",
           "para": "Beginner"
         },
         {
           "year": "",
-          "leftHead": "Express.js",
+          "leftHead": "Express.js | Beginner",
           "para": "Beginner"
         },
         {
           "year": "",
-          "leftHead": "C++",
+          "leftHead": "C++ | Intermediate",
           "para": "Intermediate"
         },
         {
           "year": "",
-          "leftHead": "C",
+          "leftHead": "C | Intermediate",
           "para": "Intermediate"
         }
       ]
@@ -95,9 +95,9 @@
       "content": [
         {
           "year": "",
-          "leftHead": "Envisage2022",
+          "leftHead": "Envisage2022 | 3rd prize Winner ",
           "para": "3rd prize Winner . Made Face recognition attendance ."
-        } 
+        }
       ]
     }
   ]
