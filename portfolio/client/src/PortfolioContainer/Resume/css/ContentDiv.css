@@ -1,11 +1,13 @@
 .resume-internal {
   display: flex;
   flex-direction: row;
+  width: auto;
 }
 
 .resume-left-internal {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 /* .resume-internal{
 
@@ -18,7 +20,7 @@
   display: flex;
   flex-direction: column;
   padding: 0px 30px 30px 30px;
-  width: auto;
+  width: 60%;
 }
 .resume-right-internal {
   margin-right: 50%;
@@ -31,6 +33,7 @@
 .line-space {
   border: 0.5px solid orangered;
   height: 0px;
+  margin-bottom: 70px;
 }
 
 .year-resume,.left-left-para{
@@ -38,6 +41,9 @@
   font-size: 13px;
   font-weight: 500;
   letter-spacing: 1px;
+}
+.year-resume{
+  width: max-content;
 }
 
 .left-left-heading{

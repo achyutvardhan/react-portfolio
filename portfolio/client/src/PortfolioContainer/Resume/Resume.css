@@ -1,13 +1,11 @@
 .resume-external-container{
     background-color: #24263B ;
-    width: fit-content;
-    color:#F57F17 ;
 }
 
 .resume-internal-container{
     display: flex;
     flex-direction: column;
-    color:#F57F17 ;
+    color: whitesmoke;
     padding-left: 190px;
     padding-right: 190px;
     padding-top: 100px;
@@ -19,5 +17,5 @@
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 80px;
-
+    color: #F57F17;
 }
