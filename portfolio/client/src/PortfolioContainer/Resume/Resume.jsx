@@ -1,9 +1,15 @@
 import React from 'react'
+import ContentDiv from './jsx/ContentDiv'
 import './Resume.css'
 export default function Resume() {
   return (
     <section id='resume'>
-    Resume is still on work
-    </section>
+      <div className="resume-external-container">
+        <div className="resume-internal-container">
+            <p className='heading-resume'>Resume</p>
+            <ContentDiv/>
+        </div>
+        </div>   
+       </section>
   )
 }
