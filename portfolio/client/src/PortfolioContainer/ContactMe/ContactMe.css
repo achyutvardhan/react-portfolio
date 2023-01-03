@@ -10,7 +10,12 @@
     border-radius: 15px;
     align-items: center;
 }
-
+.decorative-line-2{
+    border: 0.5px solid black;
+    height: 0%;
+    width: 150px;
+    margin-bottom: 60px;
+}
 @media screen and (max-width: 1029px)
 {
     .contact-container{

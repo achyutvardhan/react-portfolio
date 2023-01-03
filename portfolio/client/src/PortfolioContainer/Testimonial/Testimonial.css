@@ -7,3 +7,9 @@
     background-color:#24263B ;
     overflow: hidden;
 }
+.decorative-line-3{
+    border: 0.5px solid black;
+    height: 0%;
+    width: 250px;
+    margin-bottom: 60px;
+}

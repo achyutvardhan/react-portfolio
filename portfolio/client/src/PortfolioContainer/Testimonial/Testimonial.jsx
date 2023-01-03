@@ -10,6 +10,7 @@ export default function Testimonial() {
     <div className="header">
       <h2>Testimonial</h2>
       <h4>What My Client Say About Me?</h4>
+      <div className="decorative-line-3"></div>
      </div>
 
      <div className="testi-container">

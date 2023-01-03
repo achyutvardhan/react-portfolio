@@ -11,6 +11,7 @@ export default function AboutMe() {
      <div className="header">
       <h2>About Me</h2>
       <h4>Why Choose Me?</h4>
+      <div className="decorative-line"></div>
      </div>
     <div className="about-container">
       <AboutMeImg/>

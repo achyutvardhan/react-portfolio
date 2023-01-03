@@ -10,6 +10,7 @@ export default function ContactMe() {
         <div className="header">
           <h2>Contact Me</h2>
           <h4>Let's Keep in Touch</h4>
+          <div className="decorative-line-2"></div>
         </div>
         <ConfirmMessage />
         <div className="contact-container">

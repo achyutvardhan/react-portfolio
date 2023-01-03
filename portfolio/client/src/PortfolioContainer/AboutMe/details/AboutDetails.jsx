@@ -8,7 +8,7 @@ export default function AboutDetails() {
     <>
     <div className="detail-container">
       <div className="detail-para">
-         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam obcaecati, asperiores corporis repellat praesentium reiciendis recusandae rem minus, quibusdam nam perferendis. Sapiente earum illo ratione praesentium. Ut excepturi optio vitae!</p>
+         <p>Web developer with a focus on discovering solutions, skilled at contributing to highly collaborative work environments. a track record of success creating user-centered websites with HTML, CSS, JavaScript, Node JS, Express JS, and MYSQL. good understanding of user experience, speed, and web design best practises.</p>
       </div>
       <div className="highlights">
         <h5>Here Are Few Highlights</h5>
