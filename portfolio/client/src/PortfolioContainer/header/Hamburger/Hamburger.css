@@ -22,6 +22,7 @@
 
 }
 .menu{
+    margin-top: 15px;
     overflow-y: scroll;
     position: fixed;
     top: 0;
@@ -41,8 +42,14 @@
   padding: 10px 40px;
   text-decoration: none;
   color: whitesmoke;
-  text-transform: uppercase;
-  font-weight: bold;
+  font-family: "Poppins Regular";
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+.navbtn-ham:hover{
+    text-decoration: none;
+    color: #F57F17;
 }
 .route-ham{
     margin-top: 100px;
