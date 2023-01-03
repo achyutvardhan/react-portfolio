@@ -1,8 +1,6 @@
 .hamburger-container{
     display: none;
-}
-.menu{
-    display: none;
+    position: relative;
 }
 .slide-bar{
     display: flex;
@@ -10,7 +8,9 @@
     height: fit-content;
     background-color: transparent;
     position: inherit;
-    top: 20px;
+    top: 15px;
+    z-index: 10;
+  cursor: pointer;
 }
 .ham-slide-bar{
     width: 50px;
@@ -21,12 +21,57 @@
     border-radius: 10px;
 
 }
+.menu{
+    overflow-y: scroll;
+    position: fixed;
+    top: 0;
+    background: #24263B;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    /* max-width: 290px; */
+    z-index: 9;
+    width: 100%;
+    transition: all 1s ease-in-out;
+}
+.navbtn-ham{
+    display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: whitesmoke;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.route-ham{
+    margin-top: 100px;
+}
+.hideMenu{
+    display: none;
+}
+.cross{
+    display: none;
+    text-align: center;
+}
+.cross-bar{
+    height: fit-content;
+    background-color: transparent;
+    position: relative;
+    top: -15px;
+    z-index: 10;
+  cursor: pointer;
+  font-size: 40px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+.bar{
+
+    display: block;
+}
 @media screen and (max-width:810px) {
     .hamburger-container{
         display: flex;
         flex-direction: column;
-        height: 100%;
-        max-height: 1000px;
-        position: relative;
     }
 }

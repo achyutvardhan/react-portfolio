@@ -40,6 +40,9 @@ header{
     }
     header{
         flex-direction: row-reverse;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 30%;
     }
 }
 @media screen and (max-width:954px) {
@@ -56,6 +59,7 @@ header{
 @media screen and (max-width:447px)
 {
     header{
+        justify-content: space-evenly;
         padding: 10px;
     }
 }
