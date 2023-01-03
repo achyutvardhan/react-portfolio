@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default function AboutDetails() {
+  const scrollToContactMe = ()=>{
+    document.getElementById("ContactMe").scrollIntoView();
+  }
   return (
     <>
     <div className="detail-container">
@@ -18,7 +21,7 @@ export default function AboutDetails() {
         </ul>
       </div>
       <div className="profile-options">
-            <button className="btn primary-btn">
+            <button className="btn primary-btn" onClick={scrollToContactMe}>
               {""}
               Hire Me{" "}
             </button>

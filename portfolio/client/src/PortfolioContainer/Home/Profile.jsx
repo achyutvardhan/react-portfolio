@@ -7,6 +7,10 @@ import Testimonial from "../Testimonial/Testimonial";
 import "./Profile.css";
 import "./Home.css";
 export default function Profile() {
+
+  const scrollContactMe = ()=>{
+    document.getElementById("ContactMe").scrollIntoView();
+  }
   return (
     <>
       <div className="home-container">
@@ -54,7 +58,7 @@ export default function Profile() {
                         1000,
                         "C/C++ Programer",
                         1000,
-                        "React/React Native Dev",
+                        "React Developer",
                         1000,
                         "Mern Stack Dev",
                         1000,
@@ -68,7 +72,7 @@ export default function Profile() {
                 </span>
               </div>
               <div className="profile-options">
-                <button className="btn primary-btn">
+                <button className="btn primary-btn" onClick={scrollContactMe}>
                   {""}
                   Hire Me{" "}
                 </button>
