@@ -19,21 +19,21 @@ export default function Profile() {
             <div className="profile-details">
               <div className="colz">
                 <div className="colz-icon">
-                  <a href="#">
-                    <i className="fa fa-facebook-square"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-google-plus-square"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-instagram"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-youtube"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>
-                  </a>
+                <a href="https://www.linkedin.com/in/achyut-vardhan-3a4905180/">
+                <i className="fa fa-linkedin"></i>
+              </a>
+              <a href="https://github.com/achyutvardhan">
+                <i className="fa fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/achyutvardhan/">
+                <i className="fa fa-instagram"></i>
+              </a>
+              <a href="https://www.youtube.com/@mightyav7001">
+                <i className="fa fa-youtube"></i>
+              </a>
+              <a href="https://twitter.com/VardhanAchyut">
+                <i className="fa fa-twitter"></i>
+              </a>
                 </div>
               </div>
 
@@ -76,7 +76,7 @@ export default function Profile() {
                   {""}
                   Hire Me{" "}
                 </button>
-                <a href="#" download={"achyut_vardhan.pdf"}>
+                <a href="./image.pdf" download={"achyut_vardhan.pdf"}>
                   <button className="btn highlighted-btn">Get Resume</button>
                 </a>
               </div>
