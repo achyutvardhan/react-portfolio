@@ -15,7 +15,7 @@ export default function AboutDetails() {
         <ul>
           <li className="points">Enthusiatic Dev</li>
           <li className="points">Full Stack Developer</li>
-          <li className="points">C/C++ Programer</li>
+          <li className="points">C/C++ Programmer</li>
           <li className="points">React/React Native Dev</li>
           <li className="points">Mern Stack Dev</li>
         </ul>

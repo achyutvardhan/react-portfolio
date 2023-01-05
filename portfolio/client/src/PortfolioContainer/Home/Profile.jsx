@@ -56,7 +56,7 @@ export default function Profile() {
                         1000,
                         "Full Stack Developer",
                         1000,
-                        "C/C++ Programer",
+                        "C/C++ Programmer",
                         1000,
                         "React Developer",
                         1000,
