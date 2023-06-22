@@ -56,6 +56,7 @@ export default function Hamburger() {
              <a href="/Resume" className="navbtn-ham" onClick={closeNav}>Resume</a>
              <a href="/#testimonial" className="navbtn-ham" onClick={closeNav}>Testimonial</a>
              <a href="/#ContactMe" className="navbtn-ham" onClick={closeNav}>ContactMe</a>
+             <a href="/Project" className="navbtn-ham" onClick={closeNav}>Project</a>
           </div>
         </div>
       </div>

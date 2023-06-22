@@ -1,0 +1,8 @@
+.externaldiv{
+    background-color: #24263B
+}
+.internaldiv{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}

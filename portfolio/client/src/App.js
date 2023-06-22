@@ -6,6 +6,7 @@ import Error from "./PortfolioContainer/Error";
 import Nav from "./PortfolioContainer/header/Nav";
 // import AboutMe from "./PortfolioContainer/AboutMe/AboutMe";
 import Resume from "./PortfolioContainer/Resume/Resume";
+import Project from "./PortfolioContainer/project/Project";
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Profile />} />
           <Route path="/Resume" element={<Resume />} />
+          <Route path="/Project" element={<Project/>} />
           {/* <Route path="/AboutMe" element={<AboutMe/>} /> */}
           <Route path="*" element={<Error />} />
         </Routes>

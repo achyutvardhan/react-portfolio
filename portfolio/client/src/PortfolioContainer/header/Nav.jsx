@@ -11,6 +11,7 @@ export default function Nav() {
         <a href="/Resume" className="navbtn">Resume</a>
         <a href="/#testimonial" className="navbtn">Testimonial</a>
         <a href="/#ContactMe" className="navbtn">ContactMe</a>
+        <a href="/Project" className="navbtn">Project</a>
       </div>
       <Hamburger/>
     </header>
