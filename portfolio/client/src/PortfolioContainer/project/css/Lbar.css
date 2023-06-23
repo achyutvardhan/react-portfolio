@@ -1,0 +1,68 @@
+.LexternalBarDiv{
+    background-color: whitesmoke;
+    width: 60%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+.LinternalBarDiv{
+    display: flex;
+    flex-direction: row-reverse;
+    color: #111;
+}
+.LprojectDetails{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: space-around;
+}
+.Lprojet-name{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+    /* align-self: flex-end; */
+}
+.Lproject-link{
+    margin-bottom: 10px;
+    width: 20%;
+    align-self: flex-end;
+    border: none;
+    border-radius: 20px;
+    height: 45px;
+    background-color: #24263B;
+    cursor: pointer;
+    transform: none;
+    transition: transform 1 ease-in-out;
+}
+.Lproject-link a{
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right:10px ;
+}
+
+.Lproject-link:hover{
+    -webkit-transform: translateY(-1px);
+	transform: translateY(-1px);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Ldiscription{
+   word-wrap: break-word;
+   text-overflow: ellipsis;
+   font-size: 18px;
+   font-weight: 500;
+   font-family:'Roboto', sans-serif;
+}
+.Lduration{
+  opacity: 0.5;
+  /* align-self: flex-end; */
+}
+.LwebLink{
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 100%;
+    margin-right: 10px;
+}

@@ -1,8 +1,19 @@
 .externaldiv{
-    background-color: #24263B
+    background-color: #24263B;
+    
 }
 .internaldiv{
     color: whitesmoke;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
+}
+.heading-project{
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 80px;
+    color: #F57F17;
+    align-self: center;
 }
