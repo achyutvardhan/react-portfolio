@@ -56,7 +56,7 @@
 .discription{
    word-wrap: break-word;
    text-overflow: ellipsis;
-   font-size: 18px;
+   font-size: 16px;
    font-weight: 500;
    font-family:'Roboto', sans-serif;
    max-height: 100px;
@@ -74,6 +74,7 @@
 }
 .webLink img{
     height: 100%;
+    object-fit:fill;
     width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
