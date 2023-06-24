@@ -1,14 +1,15 @@
 .LexternalBarDiv{
     background-color: whitesmoke;
-    width: 60%;
+    width: 50%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     align-self: flex-end;
     margin-bottom: 40px;
     transition: width 0.5s ease-in-out;
+    /* margin-right: 10px; */
 }
 .LexternalBarDiv:hover{
-    width: 70%;
+    width: 60%;
 }
 .LinternalBarDiv{
     display: flex;
@@ -20,6 +21,7 @@
     flex-direction: column;
     padding-left: 20px;
     justify-content: space-around;
+    margin-right: 10px;
 }
 .Lprojet-name{
     margin-top: 10px;
@@ -42,6 +44,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
 .Lproject-link p{
     margin-right: 10px;
@@ -71,8 +74,47 @@
 }
 .LwebLink{
     border: none;
+    height: auto;
+    width: 50%;
+    /* margin-right: 10px; */
+}
+.LwebLink img{
+    height: 100%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 100%;
-    margin-right: 10px;
+}
+
+@media only screen and (max-width : 1250px) {
+    .Lproject-link{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .LexternalBarDiv{
+        width: 70%;
+        border-radius: 10px;
+        align-self: center;
+    }
+    .LinternalBarDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Lproject-link{
+        align-self: center;
+    }
+    .LwebLink{
+        width: 100%;
+    }
+    .LwebLink img{
+        border-radius: 10px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .Lprojet-name,.Lduration,.Ldiscription{
+        align-self: center;
+    }
 }

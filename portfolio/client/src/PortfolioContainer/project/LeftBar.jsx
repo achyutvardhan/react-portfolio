@@ -5,7 +5,8 @@ import out from '../../assets/Home/arrow.gif'
 export default function LeftBar(props) {
 
   console.log(props.data)
-  const {name , duration,link,description} = props.data
+  const {name , duration,link,description,imgLink} = props.data
+  console.log(props.data)
   const navtopage = ()=>{
     window.location.href = link;
   }
@@ -23,8 +24,8 @@ export default function LeftBar(props) {
 
                   </button>
             </div>
-            <div>
-              <iframe src={"https://solutionsdepot.in/"} frameborder="0"className='LwebLink' ></iframe>
+            <div className='LwebLink'>
+              <img src={imgLink?imgLink:link} alt="" srcset=""  />
             </div>
         </div>
       </div>

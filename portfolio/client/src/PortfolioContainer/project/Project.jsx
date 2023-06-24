@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./css/project.css";
 import RightBar from "./RightBar";
 import LeftBar from "./LeftBar";
+import {sheet1} from "./data.json"
 export default function Project() {
 //  let index =0;
   const [details, setDetails] = useState([]);

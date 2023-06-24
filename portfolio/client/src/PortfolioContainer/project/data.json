@@ -1,0 +1,58 @@
+{
+    "Sheet1": [
+      {
+        "name": "Payment-Integration",
+        "duration": "Jun 2023 - Jun 2023",
+        "link": "https://github.com/achyutvardhan/PaymentGatewayIntegration",
+        "description": "Implemented Razorpay's easy-to-use checkout integration for a smooth payment experience. Supported various payment methods including credit/debit cards, net banking, and digital wallets."
+      },
+      {
+        "name": "ChaGpt Discord Bot",
+        "duration": "Jun 2023 - Jun 2023",
+        "link": "https://github.com/achyutvardhan/chatgpt-bot",
+        "description": "Created and integrated ChatGPT into a Discord bot. Implemented using Javascript and the discord.js library, the bot allows seamless interaction with Discord users by generating intelligent responses based on their messages"
+      },
+      {
+        "name": "portfolio website",
+        "duration": "Jan 2022 - Feb 2023",
+        "link": "https://achyutvardhan-portfolio.netlify.app/",
+        "description": "This is my personal portfolio website , where you can know me better and can contact me for web development work. This website is made using react library ;"
+      },
+      {
+        "name": "JWT authentication",
+        "duration": "Feb 2023 - Feb 2023",
+        "link": "https://github.com/achyutvardhan/jwt-auth.git",
+        "description": "I recently worked on a MERN project . Which includes json web token (jwt ) for authentication , using mongo db as database ,using bcrypt for hashing ."
+      },
+      {
+        "name": "Solution Depot Website",
+        "duration": "Jan 2023 - Feb 2023",
+        "link": "https://solutionsdepot.in/",
+        "description": "Built the website's frontend using React.js, creating reusable components and implementing a responsive layout for optimal user experience across devices"
+      },
+      {
+        "name": "react_cart",
+        "duration": "Oct 2022 - Oct 2022",
+        "link": "https://github.com/achyutvardhan/react-project",
+        "description": "this is small UI of cart where you can add items delete item and at last can check the total prize ."
+      },
+      {
+        "name": "Railway managment project",
+        "duration": "Aug 2022 - Sep 2022",
+        "link": "https://github.com/achyutvardhan/railway-management-system",
+        "description": "This is a small personal project which does CRUD operation on data . It uses html ,css(bootstrap) , javascript as frontend and Mysql, express.js , node.js as backend ."
+      },
+      {
+        "name": "Smart attendance system",
+        "duration": "Dec 2021 - Dec 2021",
+        "link": "https://github.com/saptarsheemitra/Smart-Attendance-System.git",
+        "description": "The software initially takes a picture of all of the authorised people and stores it in a database. The image is then stored by mapping it into a face coordinate structure by the system. when a person enters it recognise and stores it entry time."
+      },
+      {
+        "name": "fed society website",
+        "duration": "Jun 2022 -   May 2023",
+        "link": "https://www.fedkiit.com/",
+        "description": "this is the website for society which will used as displaying potential of our society. we have taken this intiative because we wanted a platform for registration for conducting an event and show case our society potential"
+      }
+    ]
+  }

@@ -1,13 +1,13 @@
 .externalBarDiv{
     background-color: whitesmoke;
-    width: 60%;
+    width: 50%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-bottom: 40px;
     transition: width 0.5s ease-in-out;
 }
 .externalBarDiv:hover{
-     width: 70%;
+     width: 60%;
 }
 .internalBarDiv{
     display: flex;
@@ -68,8 +68,44 @@
 }
 .webLink{
     border: none;
+    height: auto;
+    width: 50%;
+    /* margin-right: 10px; */
+}
+.webLink img{
+    height: 100%;
+    width: 100%;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 100%;
-    margin-left: 10px;
+}
+
+@media only screen and (max-width : 1250px) {
+    .project-link{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .externalBarDiv{
+        width: 70%;
+        border-radius: 10px;
+        align-self: center;
+    }
+    .internalBarDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .project-link{
+        align-self: center;
+    }
+    .webLink img{
+        border-radius: 10px;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .projet-name,.duration,.discription{
+        align-self: center;
+    }
 }

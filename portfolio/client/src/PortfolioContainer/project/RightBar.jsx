@@ -4,7 +4,7 @@ import out from '../../assets/Home/arrow.gif'
 export default function RightBar(props) {
   // console.log("hello")
   console.log(props.data)
-  const {name , duration,link,description} = props.data
+  const {name , duration,link,description,imgLink} = props.data
   const navtopage = ()=>{
     window.location.href = link;
   }
@@ -19,11 +19,12 @@ export default function RightBar(props) {
                   <button className='Lproject-link' onClick={navtopage} >
                   <p>visit</p>
                     <img src={out} alt="" width={25}  />
-
                   </button>
             </div>
-            <div>
-              <iframe src={"https://solutionsdepot.in/"} frameborder="0"className='webLink' ></iframe>
+            <div className='webLink'>
+              {
+              imgLink?<img src={imgLink} alt="" srcset=""  />:<iframe src={link} frameborder="0"></iframe>
+              }
             </div>
         </div>
       </div>
