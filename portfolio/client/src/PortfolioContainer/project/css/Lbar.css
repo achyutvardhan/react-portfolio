@@ -5,6 +5,10 @@
     border-bottom-left-radius: 20px;
     align-self: flex-end;
     margin-bottom: 40px;
+    transition: width 0.5s ease-in-out;
+}
+.LexternalBarDiv:hover{
+    width: 70%;
 }
 .LinternalBarDiv{
     display: flex;
@@ -26,20 +30,23 @@
 }
 .Lproject-link{
     margin-bottom: 10px;
-    width: 20%;
+    width: 25%;
     align-self: flex-end;
     border: none;
-    border-radius: 20px;
-    height: 45px;
+    padding: 15px;
+    border-radius: 30px;
     background-color: #24263B;
     cursor: pointer;
-    transform: none;
-    transition: transform 1 ease-in-out;
-}
-.Lproject-link a{
     color: whitesmoke;
-    text-decoration: none;
-    margin-right:10px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Lproject-link p{
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .Lproject-link:hover{
@@ -54,6 +61,9 @@
    font-size: 18px;
    font-weight: 500;
    font-family:'Roboto', sans-serif;
+   max-height: 100px;
+   height: 100%;
+   overflow: hidden;
 }
 .Lduration{
   opacity: 0.5;

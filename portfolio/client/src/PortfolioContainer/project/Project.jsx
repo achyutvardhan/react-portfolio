@@ -3,7 +3,7 @@ import "./css/project.css";
 import RightBar from "./RightBar";
 import LeftBar from "./LeftBar";
 export default function Project() {
- let index =0;
+//  let index =0;
   const [details, setDetails] = useState([]);
 
 useEffect(() => {
@@ -24,14 +24,14 @@ useEffect(() => {
         <div className="internaldiv">
           <p className='heading-project' >PROJECT</p>
           {
-            details.map((data)=>{
+            details.map((data, index)=>{
                  if (index++%2===0) {
                   console.log(index);
-                   <RightBar data={data} key={index}/>
+                  return <RightBar data={data} key={index}/>
                   }
                   else{
                     console.log(index);
-                  <LeftBar data={data} key={index}/>}
+                  return<LeftBar data={data} key={index}/>}
                     
             })
           }

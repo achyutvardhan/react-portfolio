@@ -3,21 +3,22 @@ import './css/Lbar.css'
 import out from '../../assets/Home/arrow.gif'
 
 export default function LeftBar(props) {
+
   console.log(props.data)
+  const {name , duration,link,description} = props.data
+  const navtopage = ()=>{
+    window.location.href = link;
+  }
   return (
     <>
     <div className="LexternalBarDiv">
         <div className="LinternalBarDiv">
             <div className="LprojectDetails">
-                  <p className='Lprojet-name'>Payment-Integration </p>
-                  <p className='Lduration'>Jun 2023 - Jun 2023 </p>
-                  <p className='Ldiscription'>Implemented Razorpay's easy-to-use checkout integration
-for a smooth payment experience. Supported various
-payment methods including credit/debit cards, net banking,
-and digital wallets.
-</p>
-                  <button className='Lproject-link'>
-                    <a href="http://" target="_blank" rel="noopener noreferrer" >visit</a>
+                  <p className='Lprojet-name'>{name} </p>
+                  <p className='Lduration'>{duration} </p>
+                  <p className='Ldiscription'>{description}</p>
+                  <button className='Lproject-link' onClick={navtopage} >
+                  <p>visit</p>
                     <img src={out} alt="" width={25}  />
 
                   </button>
