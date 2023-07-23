@@ -25,7 +25,7 @@ export default function AboutDetails() {
               {""}
               Hire Me{" "}
             </button>
-            <a href={require('../../../assets/Home/image.pdf')} download={"achyut_vardhan.pdf"}>
+            <a href={require('../../../assets/Home/image1.pdf')} download={"achyut_vardhan.pdf"}>
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>
